@@ -82,7 +82,6 @@ while True:
         speed[0] = -speed[0]
 
     screen.fill(black)
-    # paddle = pygame.draw.rect(screen, white, (10, 0, 5, 50), 5)
 
     # this draws the ball onto the screen.  without it, the screen would be all black
     screen.blit(ball, ballrect)
